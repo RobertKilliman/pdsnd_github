@@ -22,5 +22,7 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+1.https://stackoverflow.com/questions/60214194/error-in-reading-stock-data-datetimeproperties-object-has-no-attribute-week
+   Replace dt.weekday_name to day_name since it didn't work
+2.https://pandas.pydata.org/docs/reference/api/pandas.Index.tolist.html
+   Usage of index.tolist
