@@ -1,8 +1,8 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-bikeshare_2.py
-README.md
+bikeshare_2.py <br>
+README.md 
 
 ### Project Title
 US Bikeshare Project
@@ -17,9 +17,9 @@ In this project, you will use data provided by Motivate, a bike share system pro
 (from project website)
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv <br>
+new_york_city.csv <br>
+washington.csv <br>
 
 ### Credits
 1.https://stackoverflow.com/questions/60214194/error-in-reading-stock-data-datetimeproperties-object-has-no-attribute-week
