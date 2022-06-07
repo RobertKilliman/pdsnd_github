@@ -29,7 +29,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input("\nWould you like to see data for Chicago, New York City, or Washington?\n").lower()
-        if city.lower() not in CITY_DATA.keys():
+        if city not in CITY_DATA.keys():
             print("Sorry, There is no data about this city in our database. Please try again.")
             continue
         else:
@@ -39,7 +39,7 @@ def get_filters():
     while True:
         month = input("\nWould you like to filter the data by month or not at all? Enter any one of the first 6 months or enter 'All' to select all 6 months.\n").lower()
 
-        if month.lower() not in MONTH_DATA:
+        if month not in MONTH_DATA:
             print("Sorry, This is not a month or one of the first 6 months. Please try again.")
             continue
         else:
@@ -49,7 +49,7 @@ def get_filters():
     while True:
         day = input("\nWould you like to filter the data by weekday or not at all, if not at all please enter 'all'\n").lower()
 
-        if day.lower() not in DAY_DATA:
+        if day not in DAY_DATA:
             print("Sorry, This is not a weekday. Please try again.")
             continue
         else:
