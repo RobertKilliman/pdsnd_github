@@ -210,6 +210,7 @@ def raw_data(df):
     index = 5
     ans_initial = input('\nWould you like to check raw data? (Yes or No).\n')
     if ans_initial.lower() == 'yes':
+        # set_option('display.max_columns',200) means display all the columns
         pd.set_option('display.max_columns',200)
         print(df.head())
 
