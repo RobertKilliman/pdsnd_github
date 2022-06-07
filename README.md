@@ -2,9 +2,6 @@
 
 ### Date created
 bikeshare_2.py
-chicago.csv
-new_york_city.csv
-washington.csv
 README.md
 
 ### Project Title
@@ -20,7 +17,9 @@ In this project, you will use data provided by Motivate, a bike share system pro
 (from project website)
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
